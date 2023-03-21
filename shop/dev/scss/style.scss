@@ -1,10 +1,8 @@
-
 // START form validation
-$bg-prime:black;
+$bg-prime:#152733;
 #sec-contact{
-    background-color: $bg-prime;
+    background-color: $bg-prime
 }
-
 .form-holder {
     display: flex;
     flex-direction: column;
@@ -139,10 +137,11 @@ $bg-prime:black;
   .invalid-feedback {
     color: #ff606e;
   }
-  
   .valid-feedback {
     color: #2acc80;
   }
+
+  // go to top
   .scroll-to-top {
     position: relative;
   }
@@ -192,5 +191,6 @@ $bg-prime:black;
     }
     100% {
       transform: translateY(0px);
-    }}
-    
+    }
+  }
+  

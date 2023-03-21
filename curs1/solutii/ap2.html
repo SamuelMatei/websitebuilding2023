@@ -39,9 +39,9 @@
           <img class="card-img-top" src="http://www.azspagirls.com/files/2010/09/orange.jpg" alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Orange</h4>
-            <p class="card-text">Pret 9lei</p>
-            <a id="orange" href="#" data-bs-toggle="modal" data-bs-target="#modalForm" data-name="Orange"
-              data-description="Portocala este proaspata" data-price="9lei" class="add-to-cart btn btn-primary">View more</a>
+            <p class="card-text">Price: $0.5</p>
+            <a id="orange" href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#modalForm" data-name="Orange"
+              data-description="Orange show details" data-price="0.5" class="add-to-cart btn btn-primary">View more</a>
           </div>
         </div>
       </div>
@@ -52,9 +52,9 @@
             alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Banana</h4>
-            <p class="card-text">Pret 12lei</p>
+            <p class="card-text">Price: $1.22</p>
             <a id="banana" href="#" data-bs-toggle="modal" data-bs-target="#modalForm" data-name="Banana"
-              data-description="Banana este proaspata" data-price="12lei" class="add-to-cart btn btn-primary">View more</a>
+              data-description="Banana show details" data-price="1.22" class="add-to-cart btn btn-primary">View more</a>
           </div>
         </div>
       </div>
@@ -64,9 +64,9 @@
             alt="Card image cap">
           <div class="card-block">
             <h4 class="card-title">Lemon</h4>
-            <p class="card-text">Pret 15lei</p>
+            <p class="card-text">Price: $5</p>
             <a id="lemon" href="#" data-bs-toggle="modal" data-bs-target="#modalForm" data-name="Lemon"
-              data-description="Lamaia este proaspata" data-price="15lei" class="add-to-cart btn btn-primary">View more</a>
+              data-description="Lemon show details" data-price="5" class="add-to-cart btn btn-primary">View more</a>
           </div>
         </div>
       </div>
@@ -106,7 +106,6 @@
       $(".modal-header #titleModalLabel").html(produs);
       $(".modal-body #price").html(pret);
       $(".modal-body #description").html(description);
-      
       id = button.attr('id');
       // var datainfo = document.getElementById(id);
       alert(JSON.stringify(button));

@@ -1,8 +1,12 @@
 var myCarousel = document.querySelector('#myCarousel')
 var carousel = new bootstrap.Carousel(myCarousel, {
-  interval: 1000,
+  interval: 2000,
   wrap: true,
-  pause: 'hover', //false
+  pause: false, //'hover'
   keyboard:true,
-  touch: true
+  touch: true,
+  ride: false
+});
+carousel.on('slide.bs.carousel', function () {
+  alert(1);
 })
